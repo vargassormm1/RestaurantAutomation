@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles3.css">
+    <title>Employees</title>
+</head>
+<body>
+  
+    <!-- Top Nav Bar -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="employee.html">Employees</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="inventory.html">Inventory</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Logout</a>
+        </li>
+    </ul>
+
+
+      <!-- Add Employee Form -->
+      <div class="addEmployee">
+        <form id="form" class="form">
+            <h2>New Employee</h2>
+            <div class="form-group">
+                <label for="email">First Name</label>
+                <input class="form-control" id="firstName" type="text" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="password">Last Name</label>
+                <input class="form-control" id="lastName" type="text" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" id="email" type="text" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label>Type</label>
+                <select class="form-control" id="type">
+                  <option>Waiter</option>
+                  <option>Manager</option>
+                  <option>Busboy</option>
+                  <option>Host</option>
+                </select>            
+              </div>
+              <button class="btn btn-primary" id="addEmployee">Add</button>
+            </form>
+      </div>  
+      
+
+      <!-- Employee Table List -->
+      <div class="employeeList">
+        <h1>Employees</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Email</th>
+              <th scope="col">Type</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody class="list">
+            <tr>
+              <td contenteditable="true">Ralph</td>
+              <td contenteditable="true">Vargas</td>
+              <td contenteditable="true">rvargas@gmaill.com</td>
+              <td contenteditable="true">Manager</td>
+              <td><input type="checkbox"></td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="btn btn-danger" id="deleteEmployee">Delete</button>
+      </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script></body>
+</html>

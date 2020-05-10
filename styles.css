@@ -1,0 +1,182 @@
+html, body { 
+  height: 100%; 
+  padding: 0; 
+  margin: 0;
+  overflow: hidden;
+}
+
+
+/* Top Navbar */
+ul.nav{
+  background-color: gray;
+}
+.nav a{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover{
+  background: #444;
+}
+
+
+/* Sections */
+#tableSection{
+  height: 1500px;
+}
+#orderSection{
+  height: 1300px;
+}
+.divide{
+  height: 80px;
+  background-color: white;
+  width: 100%;
+}
+
+
+
+/* Tables */
+/* SideNav Div */
+.sidenav {
+  width: 30%; 
+  height: 100%; 
+  float: left;
+  padding: 0 40px 0 40px;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* Tables container */
+.container {
+  width: 70%; 
+  height: 100%; 
+  float: left;
+}
+
+/* SideNav buttons */
+.btn{
+  margin-bottom: 15px;
+}
+
+/* Tables */
+.tables {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  border: 5px solid #28a745;
+  margin:40px;
+  margin-left: 55px;
+  background-color: rgb(216, 213, 213);
+}
+/* Order link */
+.sidenav a{
+  text-decoration: none;
+  color: white;
+}
+h4{
+  margin-top: 40px;
+  text-align: center;
+  color: black;
+}
+h3{
+    margin-bottom: 50px;
+}
+
+
+
+
+ /* Orders */
+ /* Menu Div  */
+.menu { 
+  width: 70%; 
+  height: 100%; 
+  float: left;
+  padding: 40px 25px 0 25px;
+  background-color: #ececec;
+}
+
+/* Orders Div */
+.orderList { 
+  width: 30%; 
+  height: 100%; 
+  float: left;
+  padding: 40px 20px 20px 20px;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+/* Collapsible Menu */
+.collapsible {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+}
+
+/* Menu Content */
+.content {
+  display: none;
+}
+
+/* Food List */
+.food{
+    margin-bottom: 3px;
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+}
+
+/* Orders List */
+ul li{
+  list-style: none;
+}
+
+/* Clear Button */
+button.clear{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* Delete Button */
+button.delete{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* queue.html */
+.queue{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

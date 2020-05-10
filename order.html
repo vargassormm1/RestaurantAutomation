@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- BootStrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css">
+
+    <title>Order</title>
+</head>
+<body>
+
+    <!-- Top Nav -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="tables.html">Tables</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="order.html">Orders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="queue.html">Queue</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Logout</a>
+        </li>
+    </ul>
+
+      
+<div class="menu">
+    <!-- Menu Section -->
+    <!-- <div class="menu"> -->
+            <h1>Menu</h1>
+                <!-- Appetizers -->
+               <button class="collapsible btn btn-secondary">Appetizers</button>
+                <div class="content">
+                    <button class="food btn btn-outline-dark" name="Wings" id="18">Wings</button>
+                    <button class="food btn btn-outline-dark" name="Calamari" id="20">Calamari</button>
+                    <button class="food btn btn-outline-dark" name="Salad" id="15">Salad</button>
+                    <button class="food btn btn-outline-dark" name="Garlic Bread" id="11">Garlic Bread</button>
+                </div>
+                <!-- Entrees -->
+               <button class="collapsible btn btn-secondary">Entrees</button>
+                <div class="content">
+                    <button class="food btn btn-outline-dark" name="Steak" id="25">Steak</button>
+                    <button class="food btn btn-outline-dark" name="Lasagna" id="20">Lasgna</button>
+                    <button class="food btn btn-outline-dark" name="Spaghetti" id="22">Spaghetti</button>
+                    <button class="food btn btn-outline-dark" name="Ribs" id="28">Ribs</button>
+                </div>
+                <!-- Desserts -->
+               <button class="collapsible btn btn-secondary">Desserts</button>
+                <div class="content">
+                    <button class="food btn btn-outline-dark" name="Brownie" id="8">Brownie</button>
+                    <button class="food btn btn-outline-dark" name="Ice Cream" id="6">Ice Cream</button>
+                    <button class="food btn btn-outline-dark" name="Cookie" id="7">Cookie</button>
+                </div>
+                <!-- Drinks -->
+               <button class="collapsible btn btn-secondary">Drinks</button>
+                <div class="content">
+                    <button class="food btn btn-outline-dark" name="Wings" id="18">Iced Tea</button>
+                    <button class="food btn btn-outline-dark" name="Wings" id="18">Lemonade</button>
+                    <button class="food btn btn-outline-dark" name="Wings" id="18">Soda</button>
+                </div>
+</div>
+      
+<div class="orderList">
+
+    <!-- Orders Section -->
+            <h1>Orders</h1>
+            <p>Table #: </p>
+            <div class="list-group">
+                <!-- Order List -->
+                <ul class= "orders">
+                    <li></li>
+                </ul>
+                <!-- Order Total -->
+                <ul class="orderTotal">
+                    <li><h5>Total: $<span id="total">0</span></h5></li>
+                </ul>
+                <!-- Clear and Delete Buttons -->
+                <button class="btn btn-danger clear">Clear</button>
+                <button class="btn btn-warning delete">Delete</button>
+                <button class="btn btn-dark submit">Submit</button>
+            </div>
+    </div>
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

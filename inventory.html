@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles3.css">
+    <title>Inventory</title>
+</head>
+<body>
+  
+    <!-- Top Nav Bar -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="employee.html">Employees</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="inventory.html">Inventory</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Logout</a>
+        </li>
+    </ul>
+
+
+ <!-- Add Inventory Form -->
+ <div class="inventoryForm">
+    <form id="form" class="form">
+        <div class="form-group">
+            <label for="itemName">Name</label>
+            <input class="form-control" id="itemName" type="text">
+        </div>
+        <div class="form-group">
+            <label for="itemAmount">Amount</label>
+            <input class="form-control" id="itemAmount" type="text">
+        </div>
+        <div class="form-group">
+            <label for="itemPrice">Price</label>
+            <input class="form-control" id="itemPrice" type="text">
+        </div>
+          <button class="btn btn-primary" id="addInventory">Add</button>
+      </form>
+  </div>  
+  
+
+
+
+<!-- Employee Table List -->
+<div class="inventoryTable">
+    <h1>Inventory</h1>
+    <table class="table">
+      <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Price</th>
+            <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody class="list">
+        <tr>
+            <td contenteditable="true">Food</td>
+            <td contenteditable="true">20</td>
+            <td contenteditable="true">$20.00</td>
+            <td contenteditable="true"><input type="checkbox"></td>
+          </tr>
+      </tbody>
+    </table>
+    <button class="btn btn-danger" id="deleteInventory">Delete</button>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script></body>
+</html>

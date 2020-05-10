@@ -1,0 +1,100 @@
+html, body { 
+  height: 100%; 
+  padding: 0; 
+  margin: 0; 
+}
+
+/* Emplyee Form Div */
+div.addEmployee{
+  background-color: #ececec;
+  width: 25%;
+  float: left;
+  height: 100%;
+}
+
+/* Employee Table Div */
+.employeeList{
+  width: 75%;
+  float: left;
+  height: 100%;
+}
+
+
+/* Inventory*/
+.inventoryForm{
+  background-color: #ececec;
+  width: 25%;
+  float: left;
+  height: 100%;
+}
+.inventoryTable{
+  width: 75%;
+  float: left;
+  height: 100%;
+}
+
+
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+/* Forms */ 
+.form{
+  padding: 30px 40px;
+}
+
+.form-group input{
+  font-size: 14px;
+} 
+
+/* Submit Button */
+.form button{
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+/* Delete Employee Button */
+#deleteEmployee{
+float: right;
+margin-right: 10px;
+}
+/* Delete Inventory Button */
+#deleteInventory{
+  float: right;
+  margin-right: 75px;
+  }
+
+
+  
+/* Top Navbar */
+ul.nav{
+    background-color: gray;
+  }
+  .nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav a:hover{
+    background: #444;
+  }
+
+
+
+
+
+
+
+
+
+

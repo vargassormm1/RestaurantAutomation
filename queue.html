@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Queue</title>
+</head>
+<body>
+
+    <!-- Top Nav -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="tables.html">Tables</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="queue.html">Queue</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Logout</a>
+        </li>
+    </ul>
+
+    <div class="queue">
+        <h1>Order Queue</h1>
+        <table class="table">
+            <thead>
+              <tr>
+                  <th scope="col">Order #</th>
+                  <th scope="col">Order</th>
+                  <th scope="col">Total</th>
+                  <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody class="list">
+              <tr>
+                  <td contenteditable="true">1</td>
+                  <td contenteditable="true">Steak</td>
+                  <td contenteditable="true">$25.00</td>
+                  <td><button class="btn btn-success" id="done">Done</button></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
